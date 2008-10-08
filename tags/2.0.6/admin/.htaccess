@@ -1,7 +1,0 @@
-Deny from all
-Allow from localhost
-AuthType Basic 
-AuthUserFile /path/to/admin/.htpasswd 
-AuthName "PHP Film - Administration" 
-Require valid-user
-Satisfy any
