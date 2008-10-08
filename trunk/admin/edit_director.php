@@ -1,6 +1,7 @@
 <?
-include "../language.php";
 include "../config.php";
+if(!isset($lang) || empty($lang) || !file_exists("../lang/"."$lang".".php")) { $lang = "language_en"; }
+include "../lang/"."$lang".".php";
 include "../common.php";
 
 $database=Connect();
@@ -43,7 +44,7 @@ if ($HTTP_POST_VARS['id_direct']) {
   
 } else {
   print "<html><body>\n";
-  print "<center><h1>$e_country</h1><form action=\"edit_director.php\" method=\"post\">\n";
+  print "<center><h1>$e_director</h1><form action=\"edit_director.php\" method=\"post\">\n";
   print $name.": <select name=\"id\">\n";
   $result=mysql_query("SELECT name,id FROM ".$db_prefix."director ORDER BY name;");
   while ($arr = mysql_fetch_array ($result))

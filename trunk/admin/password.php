@@ -1,5 +1,7 @@
 <?
-include "../language.php";
+include "../config.php";
+if(!isset($lang) || empty($lang) || !file_exists("../lang/"."$lang".".php")) { $lang = "language_en"; }
+include "../lang/"."$lang".".php";
 
 $var=$HTTP_POST_VARS;
 print "<html><body><center>\n";

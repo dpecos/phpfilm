@@ -8,8 +8,9 @@
  */
 include "init.php";
 $page=page_order($page,"02");
-include "language.php";
 include "config.php";
+if(!isset($lang) || empty($lang) || !file_exists("lang/"."$lang".".php")) { $lang = "language_en"; }
+include "lang/"."$lang".".php";
 include "common.php";
 
 if ($HTTP_POST_VARS['id']) {

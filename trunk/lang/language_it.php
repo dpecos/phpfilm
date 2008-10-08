@@ -80,19 +80,16 @@ $n_country="NUOVA NAZIONE";
 $n_director="NUOVO REGISTA";
 $n_film="NUOVO FILM";
 $n_genre="NUOVO GENERE";
-$n_productor="NUOVO PRODUTTORE";
 $d_actor="CANCELLA ATTORE";
 $d_country="CANCELLA NAZIONE";
 $d_director="CANCELLA REGISTA";
 $d_film="CANCELLA FILM";
 $d_genre="CANCELLA GENERE";
-$d_productor="CANCELLA PRODUTTORE";
 $e_actor="MODIFICA ATTORE";
 $e_country="MODIFICA NAZIONE";
 $e_director="MODIFICA REGISTA";
 $e_film="MODIFICA FILM";
-$e_genre="MODIFICA NAZIONE";
-$e_productor="MODIFICA PRODUTTORE";
+$e_genre="MODIFICA GENERE";
 
 $passwd_help="ISTRUZIONI: <br><br>\n 1 - Per aggiugere un nuovo Utente, compila tutti i campi tranne $old_password.<br>\n 2 - Per cambiare la password di un Utente esistente, devi compilare tutti i campi.<br>\n 3 - Per cancellare un Utente, riempi solo il campo $user.\n";
 ?>

@@ -9,7 +9,11 @@ You must follow this steps:
 	# tar xzvf php_film-xx.tar.gz
 	# cd php_film 
 
-2- Copy the language file you prefer ( php_film/lang/language_xx.php ) and
+2- /* 
+   --- CHANGED FROM 2.0.7 ----
+   Now language config is made through config.php
+   */
+   Copy the language file you prefer ( php_film/lang/language_xx.php ) and
    rename it into language.php
 
    	# cp lang/language_en.php language.php
