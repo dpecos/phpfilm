@@ -1,6 +1,9 @@
 <? 
+// Set-up the language
+$lang="language_en";
+
 // Name of the data base
-$db="Films";
+$db="phpfilm";
 
 // Path to the main php_film directory
 $path="/path/to/phpfilm";
@@ -13,13 +16,13 @@ $host="localhost";
 $port="";
 
 // User and password of the database
-$user="dbuser";
-$passwd="dbpasswd";
+$user="devel";
+$passwd="devel";
 
 // prefix for the table names
 $db_prefix="";
 
-$version="2.0.6";
+$version="2.0.7";
 
 // main page
 // 1 if you want to show this field, 0 if not

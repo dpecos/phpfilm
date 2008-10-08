@@ -8,5 +8,6 @@ chmod 644 admin/.htaccess
 chmod 666 admin/.htpasswd
 chmod 644 img/*
 chmod 777 img/film
+chmod 644 lang/*
 
 echo "Permissions have been set"

@@ -2,7 +2,8 @@
 include "../init.php";
 $page=page_order($page,"34");
 include "../config.php";
-include "../language.php";
+if(!isset($lang) || empty($lang) || !file_exists("../lang/"."$lang".".php")) { $lang = "language_en"; }
+include "../lang/"."$lang".".php";
 include "../common.php";
 
 $database=Connect();

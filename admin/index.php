@@ -2,7 +2,8 @@
 include "../init.php";
 $page=page_order($page,"99");
 include "../config.php";
-include "../language.php";
+if(!isset($lang) || empty($lang) || !file_exists("../lang/"."$lang".".php")) { $lang = "language_en"; }
+include "../lang/"."$lang".".php";
 
 print "<html>\n";
 print "  <head>\n";
@@ -10,7 +11,7 @@ print "    <META HTTP-EQUIV=Expires CONTENT=\"".date("D, j M Y G:i:s")." GMT\">\
 print "  </head>\n";
 print "  <body>\n";
 print "    <center><h1>".$webtitle."</h1></center>\n";
-print "    <br><br><center><small><a href=\"http://phpfilm.netpecos.org\">PHP Film ".$version."</a></small></center>\n";
+print "    <br><br><center><small><a href=\"http://netpecos.org/projects/phpfilm/\" target=\"_new\">PHP Film ".$version."</a></small></center>\n";
 print "    <ul>\n";
 print "      <li><a href=\"add_film.php\">".$add."</a>/<a href=\"del_film.php\">".$del."</a>/<a href=\"edit_film.php\">".$edit."</a> ".$film."</li>\n";
 print "      <li><a href=\"add_genre.php\">".$add."</a>/<a href=\"del_genre.php\">".$del."</a>/<a href=\"edit_genre.php\">".$edit."</a> ".$genre."</li>\n";

@@ -62,8 +62,9 @@ function print_header() {
 }
 
 function show_index($query) { 
-  include "language.php";
   include "config.php";
+  if(!isset($lang) || empty($lang) || !file_exists("lang/"."$lang".".php")) { $lang = "language_en"; }
+  include "lang/"."$lang".".php";
   $database=connect();
   $result=mysql_query($query);
   
@@ -273,8 +274,9 @@ function show_index($query) {
 *******************************************************************/
 
 function show_index_detailed($query) {
-  include "language.php";
   include "config.php";
+  if(!isset($lang) || empty($lang) || !file_exists("lang/"."$lang".".php")) { $lang = "language_en"; }
+  include "lang/"."$lang".".php";
 
   $database=Connect();
   $result=mysql_query($query);
