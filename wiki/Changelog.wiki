@@ -2,12 +2,12 @@
    09-10-08: Updated project home page URL.
             Created a project page on code.google.com + subversion repository.
             
-   22-08-08: (Thanks to falconet@libero.it) 
+   22-08-08: (Thanks to falcoNET) 
            Now the language is setting from inside the config.php
    	     Corrected bug that show bad var
    	     Open netpecos home on new page
    	     
-   21-08-08: (Thanks to falconet@libero.it)
+   21-08-08: (Thanks to falcoNET)
            Update language_it file and deleted unused productor files.
 
 *Version 2.0.6*
