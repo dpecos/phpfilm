@@ -1,0 +1,59 @@
+**Version 2.0.7**
+> 09-10-08: Updated project home page URL.
+> > Created a project page on code.google.com + subversion repository.
+
+
+> 22-08-08: (Thanks to falcoNET)
+> > Now the language is setting from inside the config.php
+> > Corrected bug that show bad var
+> > Open netpecos home on new page
+
+
+> 21-08-08: (Thanks to falcoNET)
+> > Update language\_it file and deleted unused productor files.
+
+**Version 2.0.6**
+
+> 22-02-04: Now it is possible to set a prefix for table names. Read INSTALL
+> > for more instructions.
+
+**Version 2.0.5**
+
+> 31-01-04: Added German (thanks to Sebastian Baldauf <Sebastian.Baldauf@web.de>).
+> > Added Patch submited by Sebastian that shows id field on normal
+> > index.
+
+**Version 2.0.4**
+
+> 25-02-03: Fixed an html bug in people.php, index.php and index\_detailed.php.
+> > Fixed a problem with $path variable when updating or deleting images.
+
+**Version 2.0.3**
+
+> 23-02-03: Added Italian (thanks to Raf <raf@email.it>) and Catalan languages.
+
+**Version 2.0.2**
+> 07-12-02: Minor bugfixes.
+
+**Version 2.0.1**
+> 03-11-02: Improved explanation of the install process. Fixed a bug in
+> > fixperm.sh.
+
+**Version 2.0.0**
+
+> 31-08-02: index.php has been html-validated by W3C. Check bug in css for
+> > Mozilla.
+
+
+> 30-08-02: Improved docs. Now, whenever you create an actor or director
+> > from editing a film, it will be automatically added into the
+> > film you are editing. Starts rewriting code, adding better
+> > css style sheets use and improving html clarity.
+
+
+> 28-08-02: Deleted 'productor' field from database and project.
+> > Corrected bug that didn't allow to choose a null country for
+> > actors and directors.
+
+
+> 03-07-02: Starts rewriting and moving to MySQL.

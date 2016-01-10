@@ -1,0 +1,1 @@
+It consists of a database that allows you to admin your film collection, storing about them many data, like its director, actors, productor, year ... and even an image about it, like, for example, the poster or dvd cover.
